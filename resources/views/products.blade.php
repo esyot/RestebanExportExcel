@@ -19,7 +19,7 @@
             
         </div>
         <div class="overflow-x-auto">
-            <table class="min-w-full bg-white border border-gray-300">
+            <table class="min-w-full bg-gray-500 text-white border border-gray-300">
                 <thead>
                     <tr>
                         <th class="py-2 px-4 border-b">Name</th>
@@ -31,7 +31,7 @@
                 </thead>
                 <tbody>
                     @foreach($products as $product)
-                    <tr class="bg-gray-50 text-center">
+                    <tr class="bg-gray-50 text-center text-black">
                         <td class="py-2 px-4 border-b">{{ $product->name }}</td>
                         <td class="py-2 px-4 border-b">{{ $product->brand }}</td>
                         <td class="py-2 px-4 border-b">{{ $product->description }}</td>
