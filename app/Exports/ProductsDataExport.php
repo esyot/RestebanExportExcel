@@ -21,7 +21,7 @@ class ProductsDataExport implements FromView, ShouldAutoSize
 
     public function view(): View
     {
-        return view('exports.products', [
+        return view('products', [
             'products' => $this->products
         ]);
     }
